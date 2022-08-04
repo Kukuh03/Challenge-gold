@@ -1,0 +1,49 @@
+.sewamobil-card h2 {
+    color: white;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.sewamobil-card p {
+    color: white;
+    justify-content: center;
+}
+
+.sewamobil-container {
+    padding: 50px;
+    background-color: darkblue;
+    justify-content: center;
+}
+
+.button {
+    background-color: limegreen;
+    color: white;
+    justify-content: center;
+}
+
+
+@media (max-width: 600px) {
+    .sewamobil-container {
+      display: contents;
+      font-size: 20px;
+  }
+
+  .button {
+    display: contents;
+    font-size: 20px;
+}
+
+.sewamobil-card h2 {
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.sewamobil-card p {
+    justify-content: center;
+
+}
+    .responsive {
+    width: 100%;
+    height: auto;
+  }
+  }

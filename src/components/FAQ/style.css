@@ -1,0 +1,25 @@
+.Faq-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.Faq-text {
+    padding-right: 200px;
+}
+
+.Faq-toggle {
+    padding-left: 200px;
+}
+
+@media (max-width: 600px) {
+    .Faq-container {
+      display: contents;
+      background-color: #F1F3FF;
+      font-size: 20px;
+  }
+    .responsive {
+    width: 100%;
+    height: auto;
+  }
+  }

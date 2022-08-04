@@ -1,0 +1,22 @@
+.navbar-row {
+    justify-content : space-around;
+    background-color: #F1F3FF;
+}
+
+.nav-list {
+    display : flex;
+}
+
+.nav-list p {
+    padding : 10px;
+}
+
+.List-navbar a {
+    color: White;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+  }

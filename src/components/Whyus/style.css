@@ -1,0 +1,25 @@
+.card-container {
+    padding: 133px;
+}
+.card-list {
+    display: flex;
+    padding: 40px
+}
+
+@media (max-width: 600px) {
+    .card-container {
+      display: contents;
+      background-color: white;
+      font-size: 20px;
+  }
+
+  .card-list {
+    display: contents;
+    background-color: white;
+    font-size: 20px;
+}
+    .responsive {
+    width: 100%;
+    height: auto;
+  }
+  }

@@ -1,0 +1,23 @@
+.banner-container {
+    background-color: #F1F3FF;
+    display : flex;
+    padding-left: 133px;
+    justify-content : space-evenly;
+}
+
+.button-mobil {
+    background-color: limegreen;
+    color: white;
+}
+
+@media (max-width: 600px) {
+  .banner-container {
+    display: contents;
+    background-color: #F1F3FF;
+    font-size: 30px;
+}
+  .responsive {
+  width: 100%;
+  height: auto;
+}
+}
