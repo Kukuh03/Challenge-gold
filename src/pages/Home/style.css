@@ -1,0 +1,14 @@
+@media (max-width: 362px) {
+    body section#home .btn {
+      margin-right: 0 !important;
+    }
+    body section#home .btn:last-child {
+      display: none;
+    }
+    body section#about .link-item-group {
+      text-align: center;
+    }
+    body section#about .link-item-group .link-item:last-child {
+      display: none;
+    }
+  }

@@ -1,0 +1,24 @@
+.detail-container {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    padding-right: 100px;
+}
+
+.car {
+    padding-left: 100px;
+}
+
+@media (max-width: 600px) {
+    .detail-container {
+      display: contents;
+      background-color: #F1F3FF;
+      font-size: 20px;
+  }
+    .responsive {
+    width: 100%;
+    height: auto;
+  }
+  }
